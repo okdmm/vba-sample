@@ -20,6 +20,6 @@ End Sub
 
 
 Sub dispVersion()
-  MsgBox Application.Version
+  MsgBox Application.Version + dispOS()
 End Sub
 
